@@ -5,7 +5,7 @@ class Config:
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://postgres:teemo230@localhost:5432/magic-poems"
+    SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://postgres:teemo230@localhost:5432/magic-playlists"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 class ProductionConfig(Config):
